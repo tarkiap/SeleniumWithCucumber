@@ -1,0 +1,379 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-27T11:44:43.817Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2841458000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 80366000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 478405000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1330000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps.LoginStep.iNavigateToTheLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 250000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187887000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 236000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "steps.LoginStep.iEnterTheFollowingForLogin(java.util.List\u003csteps.LoginStep$User\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 197000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "adminpassword"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185781000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1140000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "steps.LoginStep.iClickLoginButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 198000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52645000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 246000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "steps.LoginStep.iShouldSeeTheUserformPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 209000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-27T11:44:47.694Z",
+        "before": [
+          {
+            "result": {
+              "duration": 259793000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with correct username and password to fail",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password-to-fail",
+        "after": [
+          {
+            "result": {
+              "duration": 68898000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hook.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 167548000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 863000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps.LoginStep.iNavigateToTheLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 176000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160529000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 186000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "steps.LoginStep.iEnterTheFollowingForLogin(java.util.List\u003csteps.LoginStep$User\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 170000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "adminpassword"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60946000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 193000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click login button",
+            "match": {
+              "location": "steps.LoginStep.iClickLoginButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 162000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 347000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 4003000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I should see the userform page wrongly",
+            "match": {
+              "location": "steps.LoginStep.iShouldSeeTheUserformPageWrongly()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 130000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "  This feature deals with the login functionality of the applications",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
