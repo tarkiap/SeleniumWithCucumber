@@ -130,8 +130,8 @@
 	    <dependency>     
 <groupId>com.apple</groupId>    
 <artifactId>AppleJavaExtensions</artifactId>     
-<version>1.4</version> <
-/dependency>
+<version>1.4</version> 
+	    </dependency>
 
 
         <dependency>
