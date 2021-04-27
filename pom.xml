@@ -126,6 +126,12 @@
             <artifactId>cucumber-reporting</artifactId>
             <version>5.5.2</version>
         </dependency>
+	    
+	    <dependency>     
+<groupId>com.apple</groupId>    
+<artifactId>AppleJavaExtensions</artifactId>     
+<version>1.4</version> <
+/dependency>
 
 
         <dependency>
